@@ -110,17 +110,17 @@
 				<div class="inner">
 					<div class="features">
 						<section class="content">
-							<span class="icon-wrapper major"><span class="icon solid fa-pencil-alt"></span></span>
+							<span class="icon-wrapper major"><span class="icon solid fas fa-building"></span></span>
 							<h3>Facilities</h3>
 							<p>Acromil now manufacturer's parts for the Aerospace Industry’s most advanced Multi-Spindle Titanium Profilers.</p>
 						</section>
 						<section class="content">
-							<span class="icon-wrapper major"><span class="icon solid fa-paper-plane"></span></span>
+							<span class="icon-wrapper major"><span class="icon solid fas fa-tools"></span></span>
 							<h3>Equipment</h3>
 							<p>Our machinery produces quality parts specific to our customers' needs.</p>
 						</section>
 						<section class="content">
-							<span class="icon-wrapper major"><span class="icon solid fa-cloud"></span></span>
+							<span class="icon-wrapper major"><span class="icon solid fas fa-award"></span></span>
 							<h3>Careers</h3>
 							<p>Acromil strives to be an industry leader. Learn more about a rewarding career with us.</p>
 						</section>
@@ -208,28 +208,99 @@
 				<div class="inner">
 					<section>
 						<h2>Send us a message</h2>
-						<form method="post" action="#">
-							<div class="row gtr-uniform">
-								<div class="col-6 col-12-large col-6-medium col-12-xsmall">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
-								</div>
-								<div class="col-6 col-12-large col-6-medium col-12-xsmall">
-									<label for="email">Email</label>
-									<input type="email" name="email" id="email" />
-								</div>
-								<div class="col-12">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="5"></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</div>
-							</div>
+
+
+
+						<form class="contact-form" action="contactform.php" method="post">
+
+							<div class="col-6 col-12-large col-6-medium col-12-xsmall">
+							<label for="name">Name</label>
+							<input type="text" name="name" placeholder="Full Name"></div><br>
+
+
+							<div class="col-6 col-12-large col-6-medium col-12-xsmall">
+							<label for="email">Email</label>
+							<input type="text" name="mail" placeholder="Your E-mail"></div><br>
+
+
+							
+							<div class="col-12">
+							<label for="message">Message</label>
+							<textarea name="message" placeholder="Message"></textarea></div><br>
+
+
+							<div class="col-12">
+							<button type="submit"  name="submit">Send Message</button></div>
 						</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<!-- <div class="contact-form">
+							<form id="contact-form" method="post" action="assets/php/contact-form-handler.php">
+								
+
+								<div class="col-6 col-12-large col-6-medium col-12-xsmall">
+								<label for="name">Name</label>
+								<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+								</div><br>
+
+								<div class="col-6 col-12-large col-6-medium col-12-xsmall">
+								<label for="email">Email</label>
+								<input name="email" type="email" class="form-control" placeholder="Your Email" required>
+							    </div><br>
+
+								<div class="col-12">
+								<label for="message">Message</label>
+								<textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+								</div><br>
+								
+								<div class="col-12">
+								<input type="submit" class="form-control submit" value="Send Message">
+							    </div>
+							
+							</form>
+						</div>  -->
+
+						<!-- <section id="contact" class="wrapper split">
+							<div class="inner">
+								<section>
+									<h2>Send us a message</h2>
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-large col-6-medium col-12-xsmall">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="col-6 col-12-large col-6-medium col-12-xsmall">
+												<label for="email">Email</label>
+												<input type="email" name="email" id="email" />
+											</div>
+											<div class="col-12">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" class="primary" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+			 -->
+			
+			
 					</section>
 					<section>
 						<h2>Other ways to reach us</h2>
