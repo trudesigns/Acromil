@@ -1,11 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600|Raleway:500,700,800");
 
-/*
-	Slate by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -4411,6 +4407,7 @@ input, select, textarea {
 		padding: 4em 0 2em 0 ;
 		border-top: solid 1px #e6e6e6;
 		position: relative;
+		background-color: #092640
 	}
 
 		#footer > .inner {
@@ -4625,3 +4622,136 @@ input, select, textarea {
 				}
 
 		}
+
+
+
+
+		.wrapper.cta {
+			background-image: -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), -moz-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("images/overlay.png");
+			background-image: -webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), -webkit-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("images/overlay.png");
+			background-image: -ms-linear-gradient(top, rgba(11, 251, 218), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), -ms-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("images/overlay.png");
+			background-image: linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("images/overlay.png");
+			background-position: center center;
+			background-size: auto, auto, cover, cover;
+			background-attachment: fixed, fixed, fixed, fixed;
+			background-repeat: repeat, repeat, no-repeat, no-repeat;
+			background-color: rgba(21, 27, 33, 0.6);
+			color: #ffffff;
+
+			
+			
+		}
+
+			.wrapper.cta input, .wrapper.cta select, .wrapper.cta textarea {
+				color: #ffffff;
+			}
+
+			.wrapper.cta a {
+				color: #ffffff;
+			}
+
+			.wrapper.cta strong, .wrapper.cta b {
+				color: #ffffff;
+			}
+
+			.wrapper.cta h1, .wrapper.cta h2, .wrapper.cta h3, .wrapper.cta h4, .wrapper.cta h5, .wrapper.cta h6 {
+				color: #ffffff;
+			}
+
+			.wrapper.cta blockquote {
+				border-left-color: #ffffff;
+			}
+
+			.wrapper.cta code {
+				background: rgba(255, 255, 255, 0.075);
+				border-color: #ffffff;
+			}
+
+			.wrapper.cta hr {
+				border-bottom-color: #ffffff;
+			}
+
+			.wrapper.cta input[type="submit"],
+			.wrapper.cta input[type="reset"],
+			.wrapper.cta input[type="button"],
+			.wrapper.cta button,
+			.wrapper.cta .button {
+				background-color: transparent;
+				box-shadow: inset 0 0 0 2px #ffffff;
+				color: #ffffff !important;
+				letter-spacing: 0.05em;
+				text-transform: uppercase;
+			}
+
+				.wrapper.cta input[type="submit"]:hover,
+				.wrapper.cta input[type="reset"]:hover,
+				.wrapper.cta input[type="button"]:hover,
+				.wrapper.cta button:hover,
+				.wrapper.cta .button:hover {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+				.wrapper.cta input[type="submit"]:active,
+				.wrapper.cta input[type="reset"]:active,
+				.wrapper.cta input[type="button"]:active,
+				.wrapper.cta button:active,
+				.wrapper.cta .button:active {
+					background-color: rgba(255, 255, 255, 0.2);
+				}
+
+				.wrapper.cta input[type="submit"].icon:before,
+				.wrapper.cta input[type="reset"].icon:before,
+				.wrapper.cta input[type="button"].icon:before,
+				.wrapper.cta button.icon:before,
+				.wrapper.cta .button.icon:before {
+					color: #ffffff;
+				}
+
+				.wrapper.cta input[type="submit"].primary,
+				.wrapper.cta input[type="reset"].primary,
+				.wrapper.cta input[type="button"].primary,
+				.wrapper.cta button.primary,
+				.wrapper.cta .button.primary {
+					box-shadow: none;
+					background-color: #ffffff;
+					color: rgba(21, 27, 33, 0.6) !important;
+				}
+
+					.wrapper.cta input[type="submit"].primary.icon:before,
+					.wrapper.cta input[type="reset"].primary.icon:before,
+					.wrapper.cta input[type="button"].primary.icon:before,
+					.wrapper.cta button.primary.icon:before,
+					.wrapper.cta .button.primary.icon:before {
+						color: #ffffff;
+					}
+
+			.wrapper.cta > .inner {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+			}
+
+				.wrapper.cta > .inner > * {
+					padding-left: 1.5em;
+					-ms-flex: auto;
+					width: 50%;
+				}
+
+				.wrapper.cta > .inner > :first-child {
+					padding-left: 0;
+					width: 50%;
+				}
+
+			body.is-mobile .wrapper.cta {
+				background-attachment: scroll;
+			}
+
+			@media screen and (max-width: 980px) {
+
+				.wrapper.cta > .inner > * {
+					width: 100% !important;
+					padding-left: 0 !important;
+				}
+
+			}
