@@ -113,7 +113,7 @@ input, select, textarea {
 
 	body {
 		background-color: #fff;
-		color: #444;
+		color: #7B7B7B;
 	}
 
 	body, input, select, textarea {
@@ -1896,8 +1896,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		color: #444 !important;
-		box-shadow: inset 0 0 0 1px #444;
+		color: #2E3192 !important;
+		box-shadow: inset 0 0 0 1px #2E3192;
 	}
 
 		input[type="submit"]:hover,
@@ -3360,7 +3360,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #f6f6f6;
-			color: #444;
+			color: #7B7B7B;
 			border-top: 0;
 		}
 
@@ -3403,8 +3403,8 @@ input, select, textarea {
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
 				background-color: transparent;
-				color: #444 !important;
-				box-shadow: inset 0 0 0 1px #444;
+				color: #2E3192 !important;
+				box-shadow: inset 0 0 0 1px #2E3192;
 			}
 
 				.wrapper.style2 input[type="submit"]:hover,
@@ -3412,7 +3412,7 @@ input, select, textarea {
 				.wrapper.style2 input[type="button"]:hover,
 				.wrapper.style2 button:hover,
 				.wrapper.style2 .button:hover {
-					background-color: rgba(144, 144, 144, 0.075);
+					background-color: rgba(23, 37, 161, 0.384);
 				}
 
 				.wrapper.style2 input[type="submit"]:active,
@@ -4141,7 +4141,7 @@ input, select, textarea {
 		background-color: #444;
 		color: #fff;
 		min-height: 40em;
-		height: 75vh;
+		height: 50vh;
 		position: relative;
 	}
 
@@ -4623,18 +4623,35 @@ input, select, textarea {
 
 		}
 
-
-
-
-		.wrapper.cta {
-			background-image: -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), -moz-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("images/overlay.png");
-			background-image: -webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), -webkit-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("images/overlay.png");
-			background-image: -ms-linear-gradient(top, rgba(11, 251, 218), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), -ms-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("images/overlay.png");
-			background-image: linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("images/overlay.png");
+		.wrapper.ctb {
+			background-image: -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), -moz-linear-gradient(45deg, rgba(166, 173, 172), rgba(167, 163, 183, 0.65)), url("images/overlay.png");
+			background-image: -webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), -webkit-linear-gradient(45deg, rgba(166, 173, 172), rgba(167, 163, 183, 0.65)), url("images/overlay.png");
+			background-image: -ms-linear-gradient(top, rgba(166, 173, 172), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), -ms-linear-gradient(45deg, rgba(166, 173, 172), rgba(167, 163, 183, 0.65)), url("images/overlay.png");
+			background-image: linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), linear-gradient(45deg, rgba(166, 173, 172), rgba(167, 163, 183, 0.65)), url("images/overlay.png");
 			background-position: center center;
 			background-size: auto, auto, cover, cover;
 			background-attachment: fixed, fixed, fixed, fixed;
-			background-repeat: repeat, repeat, no-repeat, no-repeat;
+			/* background-repeat: repeat, repeat, no-repeat, no-repeat; */
+			background-color: rgba(21, 27, 33, 0.6);
+			color: #ffffff;
+			
+		}
+
+
+		.wrapper.ctb h1, .wrapper.ctb h2, .wrapper.ctb h3, .wrapper.ctb h4, .wrapper.ctb h5, .wrapper.ctb h6 {
+			color: #ffffff;
+		}
+
+
+		.wrapper.cta {
+			background-image: -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("../../images/background.jpg"), -moz-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("../../images/overlay.png");
+			background-image: -webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("../../images/background.jpg"), -webkit-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("../../images/overlay.png");
+			background-image: -ms-linear-gradient(top, rgba(11, 251, 218), rgba(21, 27, 33, 0.6)), url("../../images/background.jpg"), -ms-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("../../images/overlay.png");
+			background-image: linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("../../images/background.jpg"), linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)), url("../../images/overlay.png");
+			background-position: center center;
+			background-size: auto, auto, cover, cover;
+			background-attachment: fixed, fixed, fixed, fixed;
+			/* background-repeat: repeat, repeat, no-repeat, no-repeat; */
 			background-color: rgba(21, 27, 33, 0.6);
 			color: #ffffff;
 
@@ -4657,6 +4674,9 @@ input, select, textarea {
 			.wrapper.cta h1, .wrapper.cta h2, .wrapper.cta h3, .wrapper.cta h4, .wrapper.cta h5, .wrapper.cta h6 {
 				color: #ffffff;
 			}
+			
+			
+			
 
 			.wrapper.cta blockquote {
 				border-left-color: #ffffff;
