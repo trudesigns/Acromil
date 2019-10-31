@@ -2662,7 +2662,7 @@ input, select, textarea {
 				}
 
 			ul.bulleted-icons li h3 {
-				font-size: 1.0em;
+				font-size: 0.9em;
 				margin-bottom: 0.5em;
 				padding-bottom: 0;
 			}
@@ -4622,51 +4622,6 @@ input, select, textarea {
 				}
 
 		}
-
-
-
-
-
-		.wrapper.ctc {
-			background-image: -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("../../images/capablilities.png"), -moz-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65));
-			background-image: -webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("../../images/capablilities.png"), -webkit-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65));
-			background-image: -ms-linear-gradient(top, rgba(11, 251, 218), rgba(21, 27, 33, 0.6)), url("../../images/capablilities.png"), -ms-linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65));
-			background-image: linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("../../images/capablilities.png"), linear-gradient(45deg, rgba(11, 251, 218), rgba(51, 0, 225, 0.65)),;
-			background-position: center center;
-			background-size: auto, auto, cover, cover;
-			background-attachment: fixed, fixed, fixed, fixed;
-			/* background-repeat: repeat, repeat, no-repeat, no-repeat; */
-			background-color: rgba(21, 27, 33, 0.6);
-			color: #ffffff;
-
-			
-			
-		}
-
-			.wrapper.ctc input, .wrapper.ctc select, .wrapper.cta textarea {
-				color: #ffffff;
-			}
-
-			.wrapper.ctc a {
-				color: #ffffff;
-			}
-
-			.wrapper.ctc strong, .wrapper.cta b {
-				color: #ffffff;
-			}
-
-			.wrapper.ctc h1, .wrapper.ctc h2, .wrapper.ctc h3, .wrapper.ctc h4, .wrapper.ctc h5, .wrapper.ctc h6 {
-				color: #ffffff;
-			}
-			
-			
-
-
-
-
-
-
-
 
 		.wrapper.ctb {
 			background-image: -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/NIZ_Plane.jpg"), -moz-linear-gradient(45deg, rgba(166, 173, 172), rgba(167, 163, 183, 0.65)), url("images/overlay.png");
