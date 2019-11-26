@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /index/
+Allow: /overview/
+Allow: /capabilities/
+Allow: /quality/
+Allow: /equipment/
+Allow: /products/
+Allow: /organizationChart/
+Allow: /news/
+Allow: /facilites/
+Allow: /internalSystems/
+Allow: /coreValues/
+Allow: /companyCulture/
+Allow: /careers/
+Allow: /contact/
+Allow: /news_btl/
+Allow: /news_777xCompletion/
+Allow: /news_assemblyCompletion/
+Allow: /news_AcromilAwarded/
+Allow: /news_acromilAddition/
+Allow: /news_777xHinge/
+Allow: /machining/
+Allow: /assemblies/
+Allow: /engineering/
+
+
+Sitemap: https://acromil.com/sitemap.xml
